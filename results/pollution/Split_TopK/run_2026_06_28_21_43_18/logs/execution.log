@@ -1,0 +1,29 @@
+2026-06-28 21:43:18,093 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-06-28 21:43:18,094 - INFO - Loading datasets
+2026-06-28 21:43:18,150 - INFO - Loading split top-k rules
+2026-06-28 21:43:18,150 - INFO - [Good] loading rules @ accuracy >= 0.69
+2026-06-28 21:43:18,373 - INFO - [Good] total rules: 5
+2026-06-28 21:43:18,373 - INFO - [Good] top-k selected: 5
+2026-06-28 21:43:18,373 - INFO - [Good] kept rules: 5
+2026-06-28 21:43:18,373 - INFO - [Hazardous] loading rules @ accuracy >= 0.85
+2026-06-28 21:43:18,437 - INFO - [Hazardous] total rules: 5
+2026-06-28 21:43:18,437 - INFO - [Hazardous] top-k selected: 5
+2026-06-28 21:43:18,437 - INFO - [Hazardous] kept rules: 5
+2026-06-28 21:43:18,437 - INFO - [Moderate] loading rules @ accuracy >= 0.7
+2026-06-28 21:43:18,471 - INFO - [Moderate] total rules: 5
+2026-06-28 21:43:18,471 - INFO - [Moderate] top-k selected: 5
+2026-06-28 21:43:18,471 - INFO - [Moderate] kept rules: 5
+2026-06-28 21:43:18,471 - INFO - [Poor] loading rules @ accuracy >= 0.72
+2026-06-28 21:43:18,489 - INFO - [Poor] total rules: 36
+2026-06-28 21:43:18,489 - INFO - [Poor] top-k selected: 36
+2026-06-28 21:43:18,489 - INFO - [Poor] kept rules: 36
+2026-06-28 21:43:18,491 - INFO - TOTAL RULES: 51
+2026-06-28 21:43:18,491 - INFO - Total merged rules: 51
+2026-06-28 21:43:18,564 - INFO - Starting grid search
+2026-06-28 22:54:33,462 - INFO - Grid search completed
+2026-06-28 22:54:33,463 - INFO - Best params: {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': True, 'embedding_size': 4, 'num_embedding_columns': 49, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-06-28 22:54:33,463 - INFO - Starting final training
+2026-06-28 22:59:49,540 - INFO - Training completed
+2026-06-28 22:59:49,790 - INFO - Total execution time: 4590.98 seconds
+2026-06-28 22:59:49,791 - INFO - {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': True, 'embedding_size': 4, 'num_embedding_columns': 49, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-06-28 22:59:49,791 - INFO - {'cv_mean_score': 0.9983020524183909, 'cv_std_score': 0.0004867591686108014, 'scores_per_fold': [0.9987820684909821, 0.9976347386837006, 0.9984893500804901], 'grid_search_time_sec': 4274.8984, 'final_training_time_sec': 316.0775, 'total_execution_time_sec': 4590.9759}

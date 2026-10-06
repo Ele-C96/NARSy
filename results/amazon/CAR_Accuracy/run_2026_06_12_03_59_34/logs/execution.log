@@ -1,0 +1,6 @@
+2026-06-12 03:59:34,356 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-06-12 03:59:34,357 - INFO - Loading datasets
+2026-06-12 03:59:34,492 - INFO - Loading rules
+2026-06-12 03:59:34,503 - INFO - Initial rules: 35
+2026-06-12 03:59:34,515 - INFO - Rules after accuracy filtering: 6
+2026-06-12 03:59:34,548 - INFO - Starting grid search

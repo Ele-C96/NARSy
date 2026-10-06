@@ -1,0 +1,15 @@
+Dataset: amazon
+Accuracy threshold: 0.72
+Lift threshold: 1.22
+Top-K threshold: 6.37
+
+Class target_0:
+  Accuracy: 0.72
+  Lift: 1.16
+  Top-K: 3.04
+
+Class target_1:
+  Accuracy: 0.50
+  Lift: 1.23
+  Top-K: 3.01
+

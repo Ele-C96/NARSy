@@ -1,0 +1,32 @@
+2026-09-04 13:11:42,371 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-09-04 13:11:42,371 - INFO - Results directory: results/NPHA/Split_Lift_TopK/run_2026_09_04_13_11_42
+2026-09-04 13:11:42,371 - INFO - Loading datasets
+2026-09-04 13:11:42,384 - INFO - Loading split lift-topk rules
+2026-09-04 13:11:42,385 - INFO - [1] lift >= 1.18
+2026-09-04 13:11:42,385 - INFO - [1] top-k = 1028
+2026-09-04 13:11:42,903 - INFO - [1] loaded rules: 14623
+2026-09-04 13:11:42,903 - INFO - [1] rules after lift: 1028
+2026-09-04 13:11:42,903 - INFO - [1] top-k selected: 1028
+2026-09-04 13:11:42,903 - INFO - [1] kept rules: 1028
+2026-09-04 13:11:42,903 - INFO - [2] lift >= 1.28
+2026-09-04 13:11:42,903 - INFO - [2] top-k = 991
+2026-09-04 13:11:43,354 - INFO - [2] loaded rules: 12158
+2026-09-04 13:11:43,354 - INFO - [2] rules after lift: 459
+2026-09-04 13:11:43,354 - INFO - [2] top-k selected: 459
+2026-09-04 13:11:43,354 - INFO - [2] kept rules: 459
+2026-09-04 13:11:43,354 - INFO - [3] lift >= 1.27
+2026-09-04 13:11:43,354 - INFO - [3] top-k = 973
+2026-09-04 13:11:43,509 - INFO - [3] loaded rules: 9728
+2026-09-04 13:11:43,509 - INFO - [3] rules after lift: 366
+2026-09-04 13:11:43,509 - INFO - [3] top-k selected: 366
+2026-09-04 13:11:43,509 - INFO - [3] kept rules: 366
+2026-09-04 13:11:43,510 - INFO - TOTAL RULES: 1853
+2026-09-04 13:11:43,512 - INFO - Total merged rules: 1853
+2026-09-04 13:11:47,247 - INFO - Starting grid search
+2026-09-04 13:32:19,858 - INFO - Grid search completed
+2026-09-04 13:32:19,859 - INFO - Best params: {'lr': 0.001, 'dropout': 0.0, 'units': [256, 256, 256], 'trainable_embeddings': False, 'embedding_size': 4, 'num_embedding_columns': 52, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-09-04 13:32:19,859 - INFO - Starting final training
+2026-09-04 13:32:35,446 - INFO - Training completed
+2026-09-04 13:32:35,657 - INFO - Total execution time: 1248.20 seconds
+2026-09-04 13:32:35,657 - INFO - {'lr': 0.001, 'dropout': 0.0, 'units': [256, 256, 256], 'trainable_embeddings': False, 'embedding_size': 4, 'num_embedding_columns': 52, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-09-04 13:32:35,657 - INFO - {'cv_mean_score': 0.6861979961395264, 'cv_std_score': 0.007822347515768237, 'scores_per_fold': [0.687186598777771, 0.6761616468429565, 0.6952457427978516], 'grid_search_time_sec': 1232.6115, 'final_training_time_sec': 15.587, 'total_execution_time_sec': 1248.1985}

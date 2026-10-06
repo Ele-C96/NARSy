@@ -1,0 +1,20 @@
+Dataset: NPHA
+Accuracy threshold: 0.82
+Lift threshold: 1.20
+Top-K threshold: 1039.54
+
+Class Number_of_Doctors_Visited_1:
+  Accuracy: 0.71
+  Lift: 1.18
+  Top-K: 1028.53
+
+Class Number_of_Doctors_Visited_2:
+  Accuracy: 0.53
+  Lift: 1.28
+  Top-K: 991.89
+
+Class Number_of_Doctors_Visited_3:
+  Accuracy: 0.62
+  Lift: 1.27
+  Top-K: 973.31
+

@@ -1,0 +1,27 @@
+2026-07-23 19:31:37,504 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-07-23 19:31:37,504 - INFO - Loading datasets
+2026-07-23 19:31:38,308 - INFO - Loading lift + top-k rules
+2026-07-23 19:31:38,308 - INFO - [diabet] lift >= 1.04
+2026-07-23 19:31:38,308 - INFO - [diabet] top-k = 882
+2026-07-23 19:31:38,575 - INFO - [diabet] loaded rules: 3281
+2026-07-23 19:31:38,575 - INFO - [diabet] rules after lift: 143
+2026-07-23 19:31:38,575 - INFO - [diabet] top-k selected: 143
+2026-07-23 19:31:38,575 - INFO - [diabet] kept rules: 143
+2026-07-23 19:31:38,575 - INFO - [no_diabet] lift >= 1.06
+2026-07-23 19:31:38,576 - INFO - [no_diabet] top-k = 392
+2026-07-23 19:31:39,416 - INFO - [no_diabet] loaded rules: 10114
+2026-07-23 19:31:39,416 - INFO - [no_diabet] rules after lift: 392
+2026-07-23 19:31:39,416 - INFO - [no_diabet] top-k selected: 392
+2026-07-23 19:31:39,416 - INFO - [no_diabet] kept rules: 392
+2026-07-23 19:31:39,416 - INFO - [pre_diabet] lift >= 1.05
+2026-07-23 19:31:39,416 - INFO - [pre_diabet] top-k = 653
+2026-07-23 19:31:39,528 - INFO - [pre_diabet] loaded rules: 3675
+2026-07-23 19:31:39,528 - INFO - [pre_diabet] rules after lift: 49
+2026-07-23 19:31:39,528 - INFO - [pre_diabet] top-k selected: 49
+2026-07-23 19:31:39,528 - INFO - [pre_diabet] kept rules: 49
+2026-07-23 19:31:39,529 - INFO - TOTAL RULES: 584
+2026-07-23 19:31:39,529 - INFO - Total merged rules: 584
+2026-07-23 19:32:39,935 - INFO - Starting grid search
+2026-07-26 01:28:32,995 - INFO - Grid search completed
+2026-07-26 01:28:32,997 - INFO - Best params: {'lr': 0.0003, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': True, 'embedding_size': 4, 'num_embedding_columns': 59, 'category_max_one_hot_size': 7, 'category_embedding_size': 8, 'batch_size': 128}
+2026-07-26 01:28:32,997 - INFO - Starting final training

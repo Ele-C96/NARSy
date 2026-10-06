@@ -1,0 +1,10 @@
+2026-06-11 22:01:01,275 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-06-11 22:01:01,275 - INFO - Results directory: results/pollution/CAR/run_2026_06_11_22_01_01
+2026-06-11 22:01:01,333 - INFO - Starting grid search
+2026-06-11 23:06:50,201 - INFO - Grid search completed
+2026-06-11 23:06:50,202 - INFO - Best params: {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': False, 'embedding_size': 8, 'num_embedding_columns': 49, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-06-11 23:06:50,202 - INFO - Starting final training
+2026-06-11 23:12:34,752 - INFO - Training completed
+2026-06-11 23:12:34,986 - INFO - Total execution time: 4293.42 seconds
+2026-06-11 23:12:34,987 - INFO - {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': False, 'embedding_size': 8, 'num_embedding_columns': 49, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-06-11 23:12:34,987 - INFO - {'cv_mean_score': 0.995848536491394, 'cv_std_score': 0.0009024582674442156, 'scores_per_fold': [0.996477484703064, 0.9945723116397858, 0.9964958131313324], 'grid_search_time_sec': 3948.8685, 'final_training_time_sec': 344.5501, 'total_execution_time_sec': 4293.4186}

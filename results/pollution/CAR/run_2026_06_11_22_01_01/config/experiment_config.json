@@ -1,0 +1,33 @@
+{
+  "run_id": "2026_06_11_22_01_01",
+  "dataset": "pollution",
+  "target": "Air_Quality",
+  "best_params": {
+    "lr": 0.001,
+    "dropout": 0.1,
+    "units": [
+      64,
+      64,
+      64
+    ],
+    "trainable_embeddings": false,
+    "embedding_size": 8,
+    "num_embedding_columns": 49,
+    "category_max_one_hot_size": 7,
+    "category_embedding_size": 4,
+    "batch_size": 128
+  },
+  "seed": 42,
+  "model": "CARModel",
+  "folds": 3,
+  "num_samples": 5000,
+  "num_features": 10,
+  "train_epochs_grid": 100,
+  "train_epochs_final": 200,
+  "system_info": {
+    "tensorflow": "2.15.1",
+    "sklearn": "1.8.0",
+    "python": "3.11.15",
+    "platform": "Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+  }
+}

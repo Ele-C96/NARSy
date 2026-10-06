@@ -1,0 +1,25 @@
+2026-07-23 04:13:04,954 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-07-23 04:13:04,954 - INFO - Loading datasets
+2026-07-23 04:13:04,966 - INFO - Loading lift + top-k rules
+2026-07-23 04:13:04,966 - INFO - [0] lift >= 1.06
+2026-07-23 04:13:04,966 - INFO - [0] top-k = 13
+2026-07-23 04:13:04,973 - INFO - [0] loaded rules: 118
+2026-07-23 04:13:04,973 - INFO - [0] rules after lift: 13
+2026-07-23 04:13:04,973 - INFO - [0] top-k selected: 13
+2026-07-23 04:13:04,973 - INFO - [0] kept rules: 13
+2026-07-23 04:13:04,973 - INFO - [1] lift >= 1.05
+2026-07-23 04:13:04,973 - INFO - [1] top-k = 28
+2026-07-23 04:13:04,982 - INFO - [1] loaded rules: 83
+2026-07-23 04:13:04,982 - INFO - [1] rules after lift: 9
+2026-07-23 04:13:04,982 - INFO - [1] top-k selected: 9
+2026-07-23 04:13:04,982 - INFO - [1] kept rules: 9
+2026-07-23 04:13:04,983 - INFO - TOTAL RULES: 22
+2026-07-23 04:13:04,983 - INFO - Total merged rules: 22
+2026-07-23 04:13:05,001 - INFO - Starting grid search
+2026-07-23 04:32:04,977 - INFO - Grid search completed
+2026-07-23 04:32:04,978 - INFO - Best params: {'lr': 0.001, 'dropout': 0.1, 'units': [128, 128, 128], 'trainable_embeddings': False, 'embedding_size': 8, 'num_embedding_columns': 35, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-07-23 04:32:04,978 - INFO - Starting final training
+2026-07-23 04:33:02,958 - INFO - Training completed
+2026-07-23 04:33:03,156 - INFO - Total execution time: 1197.96 seconds
+2026-07-23 04:33:03,156 - INFO - {'lr': 0.001, 'dropout': 0.1, 'units': [128, 128, 128], 'trainable_embeddings': False, 'embedding_size': 8, 'num_embedding_columns': 35, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-07-23 04:33:03,156 - INFO - {'cv_mean_score': 0.8753292560577393, 'cv_std_score': 0.02688842222204163, 'scores_per_fold': [0.9095377922058105, 0.8726059794425964, 0.8438439965248108], 'grid_search_time_sec': 1139.976, 'final_training_time_sec': 57.9802, 'total_execution_time_sec': 1197.9562}

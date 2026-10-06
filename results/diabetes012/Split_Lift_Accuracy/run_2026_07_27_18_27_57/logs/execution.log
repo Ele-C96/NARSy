@@ -1,0 +1,28 @@
+2026-07-27 18:27:57,625 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-07-27 18:27:57,625 - INFO - Loading datasets
+2026-07-27 18:27:58,434 - INFO - Loading lift + accuracy rules
+2026-07-27 18:27:58,434 - INFO - [diabet] lift >= 1.04
+2026-07-27 18:27:58,434 - INFO - [diabet] accuracy >= 0.55
+2026-07-27 18:27:58,662 - INFO - [diabet] loaded rules: 3281
+2026-07-27 18:27:58,662 - INFO - [diabet] rules after lift: 143
+2026-07-27 18:27:58,662 - INFO - [diabet] rules after accuracy: 0
+2026-07-27 18:27:58,663 - INFO - [no_diabet] lift >= 1.06
+2026-07-27 18:27:58,663 - INFO - [no_diabet] accuracy >= 0.8
+2026-07-27 18:27:59,290 - INFO - [no_diabet] loaded rules: 10114
+2026-07-27 18:27:59,291 - INFO - [no_diabet] rules after lift: 425
+2026-07-27 18:27:59,291 - INFO - [no_diabet] rules after accuracy: 0
+2026-07-27 18:27:59,291 - INFO - [pre_diabet] lift >= 1.05
+2026-07-27 18:27:59,291 - INFO - [pre_diabet] accuracy >= 0.49
+2026-07-27 18:27:59,378 - INFO - [pre_diabet] loaded rules: 3675
+2026-07-27 18:27:59,378 - INFO - [pre_diabet] rules after lift: 49
+2026-07-27 18:27:59,378 - INFO - [pre_diabet] rules after accuracy: 0
+2026-07-27 18:27:59,379 - INFO - TOTAL RULES: 0
+2026-07-27 18:27:59,379 - INFO - Total merged rules: 0
+2026-07-27 18:27:59,393 - INFO - Starting grid search
+2026-07-29 11:07:50,824 - INFO - Grid search completed
+2026-07-29 11:07:50,824 - INFO - Best params: {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': True, 'embedding_size': 4, 'num_embedding_columns': 59, 'category_max_one_hot_size': 7, 'category_embedding_size': 8, 'batch_size': 128}
+2026-07-29 11:07:50,824 - INFO - Starting final training
+2026-07-29 15:23:53,708 - INFO - Training completed
+2026-07-29 15:23:53,960 - INFO - Total execution time: 161754.31 seconds
+2026-07-29 15:23:53,960 - INFO - {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': True, 'embedding_size': 4, 'num_embedding_columns': 59, 'category_max_one_hot_size': 7, 'category_embedding_size': 8, 'batch_size': 128}
+2026-07-29 15:23:53,960 - INFO - {'cv_mean_score': 0.9555468037425275, 'cv_std_score': 0.0007402285702350207, 'scores_per_fold': [0.9553358095238008, 0.9547643151627966, 0.9565402865409851], 'grid_search_time_sec': 146391.431, 'final_training_time_sec': 15362.8839, 'total_execution_time_sec': 161754.3149}

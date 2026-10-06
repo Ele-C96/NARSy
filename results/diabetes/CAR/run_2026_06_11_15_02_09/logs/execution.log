@@ -1,0 +1,10 @@
+2026-06-11 15:02:09,914 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-06-11 15:02:09,915 - INFO - Results directory: results/diabetes/CAR/run_2026_06_11_15_02_09
+2026-06-11 15:02:09,953 - INFO - Starting grid search
+2026-06-11 15:38:02,916 - INFO - Grid search completed
+2026-06-11 15:38:02,917 - INFO - Best params: {'lr': 0.001, 'dropout': 0.0, 'units': [128, 128, 128], 'trainable_embeddings': False, 'embedding_size': 8, 'num_embedding_columns': 35, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-06-11 15:38:02,917 - INFO - Starting final training
+2026-06-11 15:39:45,412 - INFO - Training completed
+2026-06-11 15:39:45,777 - INFO - Total execution time: 2255.46 seconds
+2026-06-11 15:39:45,778 - INFO - {'lr': 0.001, 'dropout': 0.0, 'units': [128, 128, 128], 'trainable_embeddings': False, 'embedding_size': 8, 'num_embedding_columns': 35, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-06-11 15:39:45,778 - INFO - {'cv_mean_score': 0.8848318060239156, 'cv_std_score': 0.012890539376409339, 'scores_per_fold': [0.9017252326011658, 0.8823187351226807, 0.8704514503479004], 'grid_search_time_sec': 2152.9638, 'final_training_time_sec': 102.4944, 'total_execution_time_sec': 2255.4582}

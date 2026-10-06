@@ -1,0 +1,43 @@
+2026-07-01 09:46:09,445 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-07-01 09:46:09,446 - INFO - Loading datasets
+2026-07-01 09:46:09,484 - INFO - Loading lift + top-k rules
+2026-07-01 09:46:09,485 - INFO - [A] lift >= 1.14
+2026-07-01 09:46:09,485 - INFO - [A] top-k = 50
+2026-07-01 09:46:09,575 - INFO - [A] loaded rules: 610
+2026-07-01 09:46:09,575 - INFO - [A] rules after lift: 50
+2026-07-01 09:46:09,575 - INFO - [A] top-k selected: 50
+2026-07-01 09:46:09,575 - INFO - [A] kept rules: 50
+2026-07-01 09:46:09,575 - INFO - [B] lift >= 1.02
+2026-07-01 09:46:09,575 - INFO - [B] top-k = 154
+2026-07-01 09:46:09,600 - INFO - [B] loaded rules: 334
+2026-07-01 09:46:09,601 - INFO - [B] rules after lift: 47
+2026-07-01 09:46:09,601 - INFO - [B] top-k selected: 47
+2026-07-01 09:46:09,601 - INFO - [B] kept rules: 47
+2026-07-01 09:46:09,601 - INFO - [C] lift >= 1.05
+2026-07-01 09:46:09,601 - INFO - [C] top-k = 268
+2026-07-01 09:46:09,660 - INFO - [C] loaded rules: 539
+2026-07-01 09:46:09,660 - INFO - [C] rules after lift: 87
+2026-07-01 09:46:09,660 - INFO - [C] top-k selected: 87
+2026-07-01 09:46:09,660 - INFO - [C] kept rules: 87
+2026-07-01 09:46:09,660 - INFO - [D] lift >= 1.03
+2026-07-01 09:46:09,660 - INFO - [D] top-k = 190
+2026-07-01 09:46:09,701 - INFO - [D] loaded rules: 429
+2026-07-01 09:46:09,702 - INFO - [D] rules after lift: 59
+2026-07-01 09:46:09,702 - INFO - [D] top-k selected: 59
+2026-07-01 09:46:09,702 - INFO - [D] kept rules: 59
+2026-07-01 09:46:09,702 - INFO - [F] lift >= 1.01
+2026-07-01 09:46:09,702 - INFO - [F] top-k = 43
+2026-07-01 09:46:09,719 - INFO - [F] loaded rules: 296
+2026-07-01 09:46:09,719 - INFO - [F] rules after lift: 20
+2026-07-01 09:46:09,719 - INFO - [F] top-k selected: 20
+2026-07-01 09:46:09,719 - INFO - [F] kept rules: 20
+2026-07-01 09:46:09,720 - INFO - TOTAL RULES: 263
+2026-07-01 09:46:09,721 - INFO - Total merged rules: 263
+2026-07-01 09:46:09,894 - INFO - Starting grid search
+2026-07-01 10:52:01,367 - INFO - Grid search completed
+2026-07-01 10:52:01,370 - INFO - Best params: {'lr': 0.001, 'dropout': 0.1, 'units': [256, 256, 256], 'trainable_embeddings': False, 'embedding_size': 8, 'num_embedding_columns': 56, 'category_max_one_hot_size': 7, 'category_embedding_size': 8, 'batch_size': 128}
+2026-07-01 10:52:01,370 - INFO - Starting final training
+2026-07-01 10:56:07,882 - INFO - Training completed
+2026-07-01 10:56:08,334 - INFO - Total execution time: 4197.99 seconds
+2026-07-01 10:56:08,334 - INFO - {'lr': 0.001, 'dropout': 0.1, 'units': [256, 256, 256], 'trainable_embeddings': False, 'embedding_size': 8, 'num_embedding_columns': 56, 'category_max_one_hot_size': 7, 'category_embedding_size': 8, 'batch_size': 128}
+2026-07-01 10:56:08,335 - INFO - {'cv_mean_score': 0.9416869084040324, 'cv_std_score': 0.010405595623668148, 'scores_per_fold': [0.9280552864074707, 0.9533036351203918, 0.9437018036842346], 'grid_search_time_sec': 3951.474, 'final_training_time_sec': 246.5125, 'total_execution_time_sec': 4197.9865}

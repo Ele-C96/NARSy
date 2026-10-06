@@ -1,0 +1,20 @@
+Dataset: diabetes012
+Accuracy threshold: 0.90
+Lift threshold: 1.08
+Top-K threshold: 1368.08
+
+Class Diabetes_012_diabet:
+  Accuracy: 0.55
+  Lift: 1.04
+  Top-K: 882.80
+
+Class Diabetes_012_no_diabet:
+  Accuracy: 0.80
+  Lift: 1.06
+  Top-K: 392.18
+
+Class Diabetes_012_pre_diabet:
+  Accuracy: 0.49
+  Lift: 1.05
+  Top-K: 653.37
+

@@ -1,0 +1,4 @@
+2026-06-28 12:32:35,558 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-06-28 12:32:35,558 - INFO - Loading datasets
+2026-06-28 12:32:35,692 - INFO - Loading split top-k rules
+2026-06-28 12:32:35,692 - INFO - [0] loading rules @ accuracy >= 0.72

@@ -1,0 +1,13 @@
+tensorflow==2.15.1
+keras==2.15.0
+numpy==1.26.4
+pandas==3.0.2
+scikit-learn==1.8.0
+scipy==1.17.1
+matplotlib==3.10.9
+seaborn==0.13.2
+mlxtend==0.23.4
+openml==0.15.1
+pymoo==0.6.1.6
+tqdm==4.67.3
+liac-arff==2.5.0

@@ -1,0 +1,10 @@
+2026-06-11 23:13:35,892 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-06-11 23:13:35,892 - INFO - Results directory: results/studentdespression/CAR/run_2026_06_11_23_13_35
+2026-06-11 23:13:36,492 - INFO - Starting grid search
+2026-06-12 03:32:16,096 - INFO - Grid search completed
+2026-06-12 03:32:16,097 - INFO - Best params: {'lr': 0.0003, 'dropout': 0.1, 'units': [128, 128, 128], 'trainable_embeddings': True, 'embedding_size': 4, 'num_embedding_columns': 158, 'category_max_one_hot_size': 7, 'category_embedding_size': 8, 'batch_size': 128}
+2026-06-12 03:32:16,097 - INFO - Starting final training
+2026-06-12 03:58:31,829 - INFO - Training completed
+2026-06-12 03:58:32,143 - INFO - Total execution time: 17095.34 seconds
+2026-06-12 03:58:32,143 - INFO - {'lr': 0.0003, 'dropout': 0.1, 'units': [128, 128, 128], 'trainable_embeddings': True, 'embedding_size': 4, 'num_embedding_columns': 158, 'category_max_one_hot_size': 7, 'category_embedding_size': 8, 'batch_size': 128}
+2026-06-12 03:58:32,143 - INFO - {'cv_mean_score': 0.951706200838089, 'cv_std_score': 0.0017931909863345258, 'scores_per_fold': [0.9525286853313446, 0.9492174744606018, 0.9533724427223206], 'grid_search_time_sec': 15519.6046, 'final_training_time_sec': 1575.7324, 'total_execution_time_sec': 17095.337}

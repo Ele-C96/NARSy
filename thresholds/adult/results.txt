@@ -1,0 +1,15 @@
+Dataset: adult
+Accuracy threshold: 0.83
+Lift threshold: 2.19
+Top-K threshold: 428.57
+
+Class income_gt_50k_No:
+  Accuracy: 0.70
+  Lift: 2.44
+  Top-K: 461.40
+
+Class income_gt_50k_Yes:
+  Accuracy: 0.73
+  Lift: 1.26
+  Top-K: 1492.57
+

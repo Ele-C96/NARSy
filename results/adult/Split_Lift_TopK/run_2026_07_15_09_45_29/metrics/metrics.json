@@ -1,0 +1,12 @@
+{
+  "cv_mean_score": 0.9057721714178721,
+  "cv_std_score": 0.0010470016948339648,
+  "scores_per_fold": [
+    0.9043595671653748,
+    0.9060941159725189,
+    0.9068628311157226
+  ],
+  "grid_search_time_sec": 19554.611,
+  "final_training_time_sec": 1987.7909,
+  "total_execution_time_sec": 21542.4019
+}

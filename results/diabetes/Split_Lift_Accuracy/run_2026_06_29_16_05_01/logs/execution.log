@@ -1,0 +1,23 @@
+2026-06-29 16:05:01,642 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-06-29 16:05:01,643 - INFO - Loading datasets
+2026-06-29 16:05:01,662 - INFO - Loading lift + accuracy rules
+2026-06-29 16:05:01,662 - INFO - [0] lift >= 1.06
+2026-06-29 16:05:01,662 - INFO - [0] accuracy >= 0.58
+2026-06-29 16:05:01,672 - INFO - [0] loaded rules: 118
+2026-06-29 16:05:01,672 - INFO - [0] rules after lift: 13
+2026-06-29 16:05:01,672 - INFO - [0] rules after accuracy: 0
+2026-06-29 16:05:01,672 - INFO - [1] lift >= 1.05
+2026-06-29 16:05:01,672 - INFO - [1] accuracy >= 0.62
+2026-06-29 16:05:01,680 - INFO - [1] loaded rules: 83
+2026-06-29 16:05:01,680 - INFO - [1] rules after lift: 9
+2026-06-29 16:05:01,680 - INFO - [1] rules after accuracy: 4
+2026-06-29 16:05:01,681 - INFO - TOTAL RULES: 4
+2026-06-29 16:05:01,681 - INFO - Total merged rules: 4
+2026-06-29 16:05:01,693 - INFO - Starting grid search
+2026-06-29 16:27:13,765 - INFO - Grid search completed
+2026-06-29 16:27:13,765 - INFO - Best params: {'lr': 0.001, 'dropout': 0.1, 'units': [128, 128, 128], 'trainable_embeddings': False, 'embedding_size': 8, 'num_embedding_columns': 35, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-06-29 16:27:13,765 - INFO - Starting final training
+2026-06-29 16:28:18,363 - INFO - Training completed
+2026-06-29 16:28:18,604 - INFO - Total execution time: 1396.67 seconds
+2026-06-29 16:28:18,604 - INFO - {'lr': 0.001, 'dropout': 0.1, 'units': [128, 128, 128], 'trainable_embeddings': False, 'embedding_size': 8, 'num_embedding_columns': 35, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-06-29 16:28:18,604 - INFO - {'cv_mean_score': 0.8655906716982523, 'cv_std_score': 0.006877464515799307, 'scores_per_fold': [0.8752604126930237, 0.8616620898246765, 0.8598495125770569], 'grid_search_time_sec': 1332.0715, 'final_training_time_sec': 64.5978, 'total_execution_time_sec': 1396.6693}

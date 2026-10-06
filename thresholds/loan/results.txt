@@ -1,0 +1,15 @@
+Dataset: loan
+Accuracy threshold: 0.70
+Lift threshold: 1.08
+Top-K threshold: 36.23
+
+Class loan_status_No:
+  Accuracy: 0.59
+  Lift: 1.07
+  Top-K: 166.10
+
+Class loan_status_Yes:
+  Accuracy: 0.60
+  Lift: 1.24
+  Top-K: 67.70
+

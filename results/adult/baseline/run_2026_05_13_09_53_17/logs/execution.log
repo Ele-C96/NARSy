@@ -1,0 +1,9 @@
+2026-05-13 09:53:17,194 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-05-13 09:53:17,275 - INFO - Starting grid search
+2026-05-14 05:25:34,853 - INFO - Grid search completed
+2026-05-14 05:25:34,853 - INFO - Best params: {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': True, 'kernel_initializer': 'he_uniform', 'category_max_one_hot_size': 7, 'category_embedding_size': 8, 'batch_size': 128}
+2026-05-14 05:25:34,853 - INFO - Starting final training
+2026-05-14 05:45:17,495 - INFO - Training completed
+2026-05-14 05:45:17,727 - INFO - Total execution time: 71520.22 seconds
+2026-05-14 05:45:17,727 - INFO - {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': True, 'kernel_initializer': 'he_uniform', 'category_max_one_hot_size': 7, 'category_embedding_size': 8, 'batch_size': 128}
+2026-05-14 05:45:17,728 - INFO - {'cv_mean_score': 0.9024598936239879, 'cv_std_score': 0.00039356744670818774, 'scores_per_fold': [0.9022760570049286, 0.9020968437194824, 0.9030067801475525], 'grid_search_time_sec': 70337.5772, 'final_training_time_sec': 1182.6415, 'total_execution_time_sec': 71520.2187}

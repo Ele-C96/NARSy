@@ -1,0 +1,25 @@
+2026-06-28 18:55:41,944 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-06-28 18:55:41,944 - INFO - Loading datasets
+2026-06-28 18:55:42,045 - INFO - Loading split top-k rules
+2026-06-28 18:55:42,045 - INFO - [High] loading rules @ accuracy >= 0.77
+2026-06-28 18:55:42,067 - INFO - [High] total rules: 4
+2026-06-28 18:55:42,067 - INFO - [High] top-k selected: 4
+2026-06-28 18:55:42,067 - INFO - [High] kept rules: 4
+2026-06-28 18:55:42,067 - INFO - [Low] loading rules @ accuracy >= 0.46
+2026-06-28 18:55:42,073 - INFO - [Low] total rules: 9
+2026-06-28 18:55:42,073 - INFO - [Low] top-k selected: 9
+2026-06-28 18:55:42,073 - INFO - [Low] kept rules: 9
+2026-06-28 18:55:42,073 - INFO - [Medium] loading rules @ accuracy >= 0.56
+2026-06-28 18:55:42,082 - INFO - [Medium] total rules: 17
+2026-06-28 18:55:42,082 - INFO - [Medium] top-k selected: 17
+2026-06-28 18:55:42,082 - INFO - [Medium] kept rules: 17
+2026-06-28 18:55:42,083 - INFO - TOTAL RULES: 30
+2026-06-28 18:55:42,083 - INFO - Total merged rules: 30
+2026-06-28 18:55:42,106 - INFO - Starting grid search
+2026-06-28 21:26:33,640 - INFO - Grid search completed
+2026-06-28 21:26:33,641 - INFO - Best params: {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': True, 'embedding_size': 4, 'num_embedding_columns': 112, 'category_max_one_hot_size': 7, 'category_embedding_size': 8, 'batch_size': 128}
+2026-06-28 21:26:33,641 - INFO - Starting final training
+2026-06-28 21:42:12,718 - INFO - Training completed
+2026-06-28 21:42:13,079 - INFO - Total execution time: 9990.61 seconds
+2026-06-28 21:42:13,079 - INFO - {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': True, 'embedding_size': 4, 'num_embedding_columns': 112, 'category_max_one_hot_size': 7, 'category_embedding_size': 8, 'batch_size': 128}
+2026-06-28 21:42:13,079 - INFO - {'cv_mean_score': 0.9900244623422623, 'cv_std_score': 0.0006103227164056506, 'scores_per_fold': [0.9891818761825562, 0.9906078577041626, 0.990283653140068], 'grid_search_time_sec': 9051.5335, 'final_training_time_sec': 939.0774, 'total_execution_time_sec': 9990.6109}

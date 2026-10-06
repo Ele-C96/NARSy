@@ -1,0 +1,20 @@
+Dataset: irrigation
+Accuracy threshold: 0.53
+Lift threshold: 1.39
+Top-K threshold: 1.41
+
+Class Irrigation_Need_High:
+  Accuracy: 0.77
+  Lift: 1.01
+  Top-K: 4.56
+
+Class Irrigation_Need_Low:
+  Accuracy: 0.46
+  Lift: 1.01
+  Top-K: 9.93
+
+Class Irrigation_Need_Medium:
+  Accuracy: 0.56
+  Lift: 1.01
+  Top-K: 17.38
+

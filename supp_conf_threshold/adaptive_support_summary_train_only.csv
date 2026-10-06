@@ -1,0 +1,13 @@
+dataset,modalita,n_transazioni,n_item,supera_150_item,density,min_support_adattivo,note
+adult,train_only,24112,142,False,2547.042,10.56%,
+amazon,train_only,26215,47,False,4462.128,17.02%,
+click,train_only,1098,18,False,305.0,27.78%,
+diabetes,train_only,614,35,False,157.886,25.71%,
+diabetes012,train_only,202944,59,False,74930.268,36.92%,
+health_lifestyle,train_only,80000,80,False,15000.0,18.75%,
+irrigation,train_only,8000,112,False,1428.571,17.86%,
+loan,train_only,40000,112,False,6785.714,16.96%,
+nursery,train_only,10368,29,False,3217.655,31.03%,
+pollution,train_only,4000,49,False,816.327,20.41%,
+student_performance,train_only,1914,56,False,478.5,25.00%,
+studentdespression,train_only,22321,158,True,2464.006,11.04%,"ATTENZIONE: >150 item, metodo non validato dagli autori in questo regime"

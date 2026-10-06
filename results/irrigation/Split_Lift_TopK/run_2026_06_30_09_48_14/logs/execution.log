@@ -1,0 +1,11 @@
+2026-06-30 09:48:14,107 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-06-30 09:48:14,107 - INFO - Loading datasets
+2026-06-30 09:48:14,219 - INFO - Loading lift + top-k rules
+2026-06-30 09:48:14,222 - INFO - [High] lift >= 1.01
+2026-06-30 09:48:14,222 - INFO - [High] top-k = 4
+2026-06-30 09:48:14,228 - INFO - [High] loaded rules: 72
+2026-06-30 09:48:14,228 - INFO - [High] rules after lift: 4
+2026-06-30 09:48:14,228 - INFO - [High] top-k selected: 4
+2026-06-30 09:48:14,228 - INFO - [High] kept rules: 4
+2026-06-30 09:48:14,228 - INFO - [Low] lift >= 1.01
+2026-06-30 09:48:14,228 - INFO - [Low] top-k = 9

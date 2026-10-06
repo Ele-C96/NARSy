@@ -1,0 +1,33 @@
+2026-06-30 20:54:35,324 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-06-30 20:54:35,324 - INFO - Loading datasets
+2026-06-30 20:54:35,343 - INFO - Loading split top-k rules
+2026-06-30 20:54:35,343 - INFO - [A] loading rules @ accuracy >= 0.84
+2026-06-30 20:54:35,513 - INFO - [A] total rules: 100
+2026-06-30 20:54:35,514 - INFO - [A] top-k selected: 100
+2026-06-30 20:54:35,514 - INFO - [A] kept rules: 100
+2026-06-30 20:54:35,514 - INFO - [B] loading rules @ accuracy >= 0.74
+2026-06-30 20:54:35,601 - INFO - [B] total rules: 154
+2026-06-30 20:54:35,601 - INFO - [B] top-k selected: 154
+2026-06-30 20:54:35,601 - INFO - [B] kept rules: 154
+2026-06-30 20:54:35,602 - INFO - [C] loading rules @ accuracy >= 0.71
+2026-06-30 20:54:35,742 - INFO - [C] total rules: 268
+2026-06-30 20:54:35,742 - INFO - [C] top-k selected: 268
+2026-06-30 20:54:35,742 - INFO - [C] kept rules: 268
+2026-06-30 20:54:35,742 - INFO - [D] loading rules @ accuracy >= 0.71
+2026-06-30 20:54:35,854 - INFO - [D] total rules: 190
+2026-06-30 20:54:35,854 - INFO - [D] top-k selected: 190
+2026-06-30 20:54:35,854 - INFO - [D] kept rules: 190
+2026-06-30 20:54:35,854 - INFO - [F] loading rules @ accuracy >= 0.55
+2026-06-30 20:54:35,933 - INFO - [F] total rules: 43
+2026-06-30 20:54:35,933 - INFO - [F] top-k selected: 43
+2026-06-30 20:54:35,933 - INFO - [F] kept rules: 43
+2026-06-30 20:54:35,934 - INFO - TOTAL RULES: 755
+2026-06-30 20:54:35,934 - INFO - Total merged rules: 755
+2026-06-30 20:54:36,082 - INFO - Starting grid search
+2026-06-30 21:33:46,743 - INFO - Grid search completed
+2026-06-30 21:33:46,743 - INFO - Best params: {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': False, 'embedding_size': 8, 'num_embedding_columns': 56, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-06-30 21:33:46,743 - INFO - Starting final training
+2026-06-30 21:36:19,743 - INFO - Training completed
+2026-06-30 21:36:20,053 - INFO - Total execution time: 2503.66 seconds
+2026-06-30 21:36:20,053 - INFO - {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': False, 'embedding_size': 8, 'num_embedding_columns': 56, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-06-30 21:36:20,053 - INFO - {'cv_mean_score': 0.9675169388453165, 'cv_std_score': 0.004655432833583919, 'scores_per_fold': [0.9620015621185303, 0.9733883142471313, 0.9671609401702881], 'grid_search_time_sec': 2350.6611, 'final_training_time_sec': 152.9997, 'total_execution_time_sec': 2503.6607999999997}

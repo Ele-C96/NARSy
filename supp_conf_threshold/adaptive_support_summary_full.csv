@@ -1,0 +1,13 @@
+dataset,modalita,n_transazioni,n_item,supera_150_item,density,min_support_adattivo,min_support_adattivo_pct,note
+adult,full_dataset,30140,142,False,3183.803,0.1056338028169014,10.56%,
+amazon,full_dataset,32769,47,False,5577.702,0.1702127659574468,17.02%,
+click,full_dataset,1372,18,False,381.111,0.27777777777777773,27.78%,
+diabetes,full_dataset,768,35,False,197.486,0.2571428571428572,25.71%,
+diabetes012,full_dataset,253680,59,False,93664.786,0.36922416317520385,36.92%,
+health_lifestyle,full_dataset,100000,80,False,18750.0,0.1875,18.75%,
+irrigation,full_dataset,10000,112,False,1785.714,0.17857142857142858,17.86%,
+loan,full_dataset,50000,112,False,8482.143,0.16964285714285715,16.96%,
+nursery,full_dataset,12960,29,False,4022.069,0.3103448275862069,31.03%,
+pollution,full_dataset,5000,49,False,1020.408,0.20408163265306123,20.41%,
+student_performance,full_dataset,2392,56,False,598.0,0.25,25.00%,
+studentdespression,full_dataset,27901,158,True,3002.006,0.10759493670886076,10.76%,"ATTENZIONE: >150 item, metodo non validato dagli autori in questo regime"

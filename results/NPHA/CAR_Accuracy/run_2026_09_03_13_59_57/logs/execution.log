@@ -1,0 +1,7 @@
+2026-09-03 13:59:57,203 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-09-03 13:59:57,203 - INFO - Results directory: fix_results/NPHA/CAR_Accuracy/run_2026_09_03_13_59_57
+2026-09-03 13:59:57,203 - INFO - accuracy threshold = 0.82
+2026-09-03 13:59:57,203 - INFO - Loading datasets
+2026-09-03 13:59:57,213 - INFO - Loading rules
+2026-09-03 13:59:57,254 - INFO - Initial rules: 10399
+2026-09-03 14:00:01,554 - INFO - Rules after accuracy filtering: 26

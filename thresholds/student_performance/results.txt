@@ -1,0 +1,30 @@
+Dataset: student_performance
+Accuracy threshold: 0.57
+Lift threshold: 1.01
+Top-K threshold: 11.36
+
+Class GradeClass_A:
+  Accuracy: 0.84
+  Lift: 1.14
+  Top-K: 50.76
+
+Class GradeClass_B:
+  Accuracy: 0.74
+  Lift: 1.02
+  Top-K: 154.48
+
+Class GradeClass_C:
+  Accuracy: 0.71
+  Lift: 1.05
+  Top-K: 268.93
+
+Class GradeClass_D:
+  Accuracy: 0.71
+  Lift: 1.03
+  Top-K: 190.18
+
+Class GradeClass_F:
+  Accuracy: 0.55
+  Lift: 1.01
+  Top-K: 43.27
+

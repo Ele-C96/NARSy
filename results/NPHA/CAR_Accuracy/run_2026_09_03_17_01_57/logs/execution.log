@@ -1,0 +1,15 @@
+2026-09-03 17:01:57,697 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-09-03 17:01:57,697 - INFO - Results directory: results/NPHA/CAR_Accuracy/run_2026_09_03_17_01_57
+2026-09-03 17:01:57,697 - INFO - accuracy threshold = 0.82
+2026-09-03 17:01:57,698 - INFO - Loading datasets
+2026-09-03 17:01:57,736 - INFO - Loading rules
+2026-09-03 17:01:57,815 - INFO - Initial rules: 10399
+2026-09-03 17:02:03,199 - INFO - Rules after accuracy filtering: 26
+2026-09-03 17:02:03,267 - INFO - Starting grid search
+2026-09-03 17:20:45,499 - INFO - Grid search completed
+2026-09-03 17:20:45,500 - INFO - Best params: {'lr': 0.001, 'dropout': 0.0, 'units': [256, 256, 256], 'trainable_embeddings': False, 'embedding_size': 4, 'num_embedding_columns': 52, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-09-03 17:20:45,500 - INFO - Starting final training
+2026-09-03 17:20:57,286 - INFO - Training completed
+2026-09-03 17:20:57,512 - INFO - Total execution time: 1134.02 seconds
+2026-09-03 17:20:57,512 - INFO - {'lr': 0.001, 'dropout': 0.0, 'units': [256, 256, 256], 'trainable_embeddings': False, 'embedding_size': 4, 'num_embedding_columns': 52, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-09-03 17:20:57,512 - INFO - {'cv_mean_score': 0.6897876660029093, 'cv_std_score': 0.008884497786546366, 'scores_per_fold': [0.6910970211029053, 0.6783109903335571, 0.6999549865722656], 'grid_search_time_sec': 1122.2326, 'final_training_time_sec': 11.7864, 'total_execution_time_sec': 1134.019}

@@ -1,0 +1,10 @@
+2026-06-03 15:06:04,735 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-06-03 15:06:04,735 - INFO - Results directory: results/loan/CAR/run_2026_06_03_15_06_04
+2026-06-03 15:06:05,286 - INFO - Starting grid search
+2026-06-10 14:43:45,781 - INFO - Grid search completed
+2026-06-10 14:43:45,784 - INFO - Best params: {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': True, 'embedding_size': 8, 'num_embedding_columns': 112, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-06-10 14:43:45,784 - INFO - Starting final training
+2026-06-10 15:39:23,852 - INFO - Training completed
+2026-06-10 15:39:24,120 - INFO - Total execution time: 606798.56 seconds
+2026-06-10 15:39:24,120 - INFO - {'lr': 0.001, 'dropout': 0.1, 'units': [64, 64, 64], 'trainable_embeddings': True, 'embedding_size': 8, 'num_embedding_columns': 112, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-06-10 15:39:24,121 - INFO - {'cv_mean_score': 0.9665297129574943, 'cv_std_score': 0.001012202803527863, 'scores_per_fold': [0.9663284736521104, 0.9678577114554012, 0.9654029537649715], 'grid_search_time_sec': 603460.4956, 'final_training_time_sec': 3338.0678, 'total_execution_time_sec': 606798.5634}

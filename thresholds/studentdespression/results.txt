@@ -1,0 +1,15 @@
+Dataset: studentdespression
+Accuracy threshold: 0.90
+Lift threshold: 1.04
+Top-K threshold: 125.13
+
+Class Depression_0:
+  Accuracy: 0.62
+  Lift: 1.01
+  Top-K: 368.66
+
+Class Depression_1:
+  Accuracy: 0.56
+  Lift: 1.01
+  Top-K: 195.33
+

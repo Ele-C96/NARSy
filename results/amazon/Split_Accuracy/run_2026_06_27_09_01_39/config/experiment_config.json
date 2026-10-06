@@ -1,0 +1,31 @@
+{
+  "run_id": "2026_06_27_09_01_39",
+  "dataset": "amazon",
+  "target": "target",
+  "best_params": {
+    "lr": 0.001,
+    "dropout": 0.0,
+    "units": [
+      128,
+      128,
+      128
+    ],
+    "trainable_embeddings": false,
+    "embedding_size": 8,
+    "num_embedding_columns": 47,
+    "category_max_one_hot_size": 7,
+    "category_embedding_size": 4,
+    "batch_size": 128
+  },
+  "seed": 42,
+  "model": "CARModel",
+  "folds": 3,
+  "num_samples": 32769,
+  "num_features": 8,
+  "system_info": {
+    "tensorflow": "2.15.1",
+    "sklearn": "1.8.0",
+    "python": "3.11.15",
+    "platform": "Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+  }
+}

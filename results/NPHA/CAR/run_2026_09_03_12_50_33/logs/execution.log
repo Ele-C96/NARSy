@@ -1,0 +1,12 @@
+2026-09-03 12:50:33,642 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-09-03 12:50:33,642 - INFO - Results directory: results/NPHA/CAR/run_2026_09_03_12_50_33
+2026-09-03 12:50:33,642 - INFO - Loading datasets
+2026-09-03 12:50:33,672 - INFO - Loading rules
+2026-09-03 12:50:44,495 - INFO - Starting grid search
+2026-09-03 13:25:27,407 - INFO - Grid search completed
+2026-09-03 13:25:27,408 - INFO - Best params: {'lr': 0.001, 'dropout': 0.0, 'units': [64, 64, 64], 'trainable_embeddings': False, 'embedding_size': 4, 'num_embedding_columns': 52, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-09-03 13:25:27,408 - INFO - Starting final training
+2026-09-03 13:26:04,153 - INFO - Training completed
+2026-09-03 13:26:04,432 - INFO - Total execution time: 2119.66 seconds
+2026-09-03 13:26:04,432 - INFO - {'lr': 0.001, 'dropout': 0.0, 'units': [64, 64, 64], 'trainable_embeddings': False, 'embedding_size': 4, 'num_embedding_columns': 52, 'category_max_one_hot_size': 7, 'category_embedding_size': 4, 'batch_size': 128}
+2026-09-03 13:26:04,432 - INFO - {'cv_mean_score': 0.7012246251106262, 'cv_std_score': 0.0035472921617247313, 'scores_per_fold': [0.7043111324310303, 0.6962564587593079, 0.7031062841415405], 'grid_search_time_sec': 2082.9122, 'final_training_time_sec': 36.7448, 'total_execution_time_sec': 2119.657}

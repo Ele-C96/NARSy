@@ -1,0 +1,24 @@
+Dataset: pollution
+Accuracy threshold: 0.89
+Lift threshold: 2.37
+Top-K threshold: 15.11
+
+Class Air Quality_Good:
+  Accuracy: 0.69
+  Lift: 1.08
+  Top-K: 5.98
+Class Air Quality_Hazardous:
+  Accuracy: 0.85
+  Lift: 1.01
+  Top-K: 5.34
+
+Class Air Quality_Moderate:
+  Accuracy: 0.70
+  Lift: 1.01
+  Top-K: 5.01
+
+Class Air Quality_Poor:
+  Accuracy: 0.72
+  Lift: 1.07
+  Top-K: 36.12
+

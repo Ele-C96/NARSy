@@ -1,0 +1,10 @@
+2026-09-01 10:04:11,274 - INFO - {'tensorflow': '2.15.1', 'sklearn': '1.8.0', 'python': '3.11.15', 'platform': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.39'}
+2026-09-01 10:04:11,274 - INFO - Results directory: results/NPHA/baseline/run_2026_09_01_10_04_11
+2026-09-01 10:04:11,283 - INFO - Starting grid search
+2026-09-01 12:58:28,540 - INFO - Grid search completed
+2026-09-01 12:58:28,540 - INFO - Best params: {'lr': 0.0003, 'dropout': 0.1, 'units': [128, 128, 128], 'trainable_embeddings': False, 'kernel_initializer': 'he_uniform', 'category_max_one_hot_size': 7, 'category_embedding_size': 8, 'batch_size': 128}
+2026-09-01 12:58:28,541 - INFO - Starting final training
+2026-09-01 12:58:46,257 - INFO - Training completed
+2026-09-01 12:58:46,553 - INFO - Total execution time: 10474.97 seconds
+2026-09-01 12:58:46,553 - INFO - {'lr': 0.0003, 'dropout': 0.1, 'units': [128, 128, 128], 'trainable_embeddings': False, 'kernel_initializer': 'he_uniform', 'category_max_one_hot_size': 7, 'category_embedding_size': 8, 'batch_size': 128}
+2026-09-01 12:58:46,553 - INFO - {'cv_mean_score': 0.6740387280782064, 'cv_std_score': 0.008172966165753583, 'scores_per_fold': [0.6705388426780701, 0.6662487983703613, 0.6853285431861877], 'grid_search_time_sec': 10457.2568, 'final_training_time_sec': 17.7167, 'total_execution_time_sec': 10474.9735}
