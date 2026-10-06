@@ -73,8 +73,8 @@ DATASETS = {
         "extra_id_columns": [],
     },
 
-    "studentdespression": {
-        "file": "studentdespression.csv",
+    "studentdepression": {
+        "file": "studentdepression.csv",
         "target": "Depression",
         "classes": ["0", "1"],
         "accuracy": {"0": 0.62, "1": 0.56},
