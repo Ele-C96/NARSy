@@ -1,38 +1,13 @@
-"""
-Sensitivity analysis on CONFIDENCE, at a fixed min_support.
-
-Context: the results of the adaptive support script (previous script)
-showed a min_support range between 0.1 and 0.3 across the various
-datasets, with an average of ~0.2. This script fixes min_support = 0.2
-for all datasets and tests a grid of min_confidence values (0.6 -> 0.9),
-to understand which confidence threshold produces the best rules,
-measured as the proportion/number of rules with lift > 1 (i.e. rules
-with a real positive correlation, not spurious ones).
-
-NOTE (brief, stated once): using a single average min_support (0.2) for
-datasets that are very heterogeneous in number of items is a strong
-simplification; keep this in mind if you use these numbers in the
-paper's final results, not just as an exploration.
-
-Requires: pip install mlxtend pandas
-"""
-
 import os
 from typing import List, Optional
 
 import pandas as pd
 from mlxtend.frequent_patterns import apriori, association_rules
 
-from run_adaptive_support_pipeline import discover_datasets, normalize_onehot, DATA_ROOT
+from supp_conf_threshold.run_adaptive_support_pipeline import discover_datasets, normalize_onehot, DATA_ROOT
 
 FIXED_SUPPORT = 0.2
-CONFIDENCE_GRID = [0.7, 0.75, 0.8, 0.85, 0.9]
-
-# With large datasets (e.g. diabetes012: 253,680 transactions) mlxtend may
-# try to allocate huge dense boolean matrices during candidate generation
-# (hence the "Unable to allocate 49.2 GiB" error).
-# low_memory=True processes the candidates in streaming instead of keeping
-# them all in RAM at once: slower, but it does not blow up memory.
+CONFIDENCE_GRID = [0.60, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9]
 LOW_MEMORY = True
 
 
