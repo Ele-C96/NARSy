@@ -160,7 +160,7 @@ def run(dataset, output_root=None, epochs=FINAL_EPOCHS):
         "folds": 3,
         "num_samples": len(df_full),
         "num_features": len(df_full.columns),
-        "train_epochs_grid": 200 if grid_search_time > 0.0 else None,
+        "train_epochs_grid": 100 if grid_search_time > 0.0 else None,
         "train_epochs_final": epochs,
         "params_reused": grid_search_time == 0.0,
         "system_info": SYSTEM_INFO,
