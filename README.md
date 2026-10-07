@@ -2,12 +2,13 @@
 
 NARSy is a neuro-symbolic framework that integrates association rules, automatically mined from data, into the learning process of a neural network. Through a Rule Conditioning Layer and a FiLM-based mechanism, the extracted rules act as contextual knowledge that dynamically modulates the network's internal representations.
 
-This repository contains code, datasets, mined rules and experiment outputs of the paper 'NARSy: Combining Multi-Layer Perceptrons and Association Rules in a Neuro-Symbolic Framework'.
+This repository contains the code, the datasets, the mined rules and the experiment outputs of the paper NARSy: Combining Multi-Layer Perceptrons and Association Rules in a Neuro-Symbolic Framework.
 
 ## Repository structure
 
+```
 NARSy/
-├── run_pipeline.py              # preprocessing 
+├── run_pipeline.py              # preprocessing
 ├── dataset_registry.py          # per-dataset configuration: target, classes, thresholds, min support/confidence
 ├── dataset_thresholds.py        # computes the accuracy / lift / Top-K thresholds of each rule set
 ├── 1_baseline.py                # B    - MLP baseline, no rules
@@ -15,9 +16,9 @@ NARSy/
 ├── 3_CAR_accuracy.py            # NA   - global rules above an accuracy threshold
 ├── 4_CAR_top_k.py               # NK   - Top-K global rules by accuracy
 ├── 5_CAR_split_accuracy.py      # NSA  - per-class rules above an accuracy threshold
-├── 6_CAR_split_topk.py          # NSK  - Top-K per-class rules 
+├── 6_CAR_split_topk.py          # NSK  - Top-K per-class rules
 ├── 7_CAR_split_acc_lift.py      # NSAL - per-class rules, lift filter + accuracy threshold
-├── 8_CAR_split_topk_lift.py     # NSKL - per-class rules, lift filter + Top-K 
+├── 8_CAR_split_topk_lift.py     # NSKL - per-class rules, lift filter + Top-K
 ├── run_all.sh                   # runs every experiment on every dataset
 ├── requirements.txt
 ├── src/
@@ -32,9 +33,10 @@ NARSy/
 ├── supp_conf_threshold/         # adaptive minimum support and confidence sensitivity analyses
 ├── execution_time/              # training-time analysis
 ├── data/                        # datasets (raw, preprocessed, one-hot encoded)
-├── rules/                       # mined rule sets 
+├── rules/                       # mined rule sets
 ├── thresholds/                  # thresholds computed by dataset_thresholds.py
 └── results/                     # outputs of the experiments reported in the paper
+```
 
 
 ## Model architecture
@@ -81,11 +83,11 @@ pip install -r requirements.txt
 
 The ten datasets are included in the repository. Each dataset has its own folder:
 
-
+```
 data/<dataset>/<dataset>.csv           
 data/<dataset>/<dataset>_pre.csv       
 data/<dataset>/<dataset>_apriori.csv   
-
+```
 
 
 ## Usage
@@ -132,14 +134,14 @@ bash run_all.sh
 
 5. Output. Each run is saved in its own folder:
 
-
+```
 results/<dataset>/<experiment>/run_<timestamp>/
 ├── config/{dataset}_{variant}_frid.json and experiment_config.json 
 ├── logs/execution.log
 ├── metrics/metrics.json 
 ├── models/(weights and training history of each fold)
 └── plots/history_auc_{variant}_{dataset}.png
-
+```
 
 
 
