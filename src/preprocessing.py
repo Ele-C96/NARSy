@@ -2,8 +2,7 @@
 src/preprocessing.py
 
 Data cleaning, removal of ID columns, and discretization of numerical features.
-No external discretization library: equal-frequency binning is
-implemented directly using pandas.qcut.
+equal-frequency binning is implemented directly using pandas.qcut.
 
 Public functions, in the order they are typically used in a pipeline:
     clean_header(df)                -> normalizes column names
@@ -128,10 +127,8 @@ def categorize(df: pd.DataFrame, target: str = None, unique_threshold: int = UNI
 
     - the target column (if specified) is NOT discretized, but is
       nevertheless cast to a string: this allows it to be properly expanded into
-      class-specific columns by the one-hot encoding step (necessary for multi-class targets,
-      e.g., values 1/2/3 as in NPHA)
+      class-specific columns by the one-hot encoding step
     - numeric columns with few unique values (<= unique_threshold) remain unchanged
-      (they are already likely ordinal/binary, e.g., Likert scale 1-5)
     - continuous numeric columns are discretized into equal-frequency bins
     - already textual/categorical columns remain unchanged (cast to string)
 
