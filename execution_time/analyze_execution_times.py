@@ -1,24 +1,3 @@
-"""
-analyze_execution_times.py
------------------------------
-Automatically extracts the execution times for EVERY dataset and EVERY
-variant found (no list to specify by hand), keeps only the LATEST run
-when there is more than one for the same (dataset, variant) combination,
-and generates:
-  - a full CSV with every run found (for transparency/debugging)
-  - a filtered CSV with only the latest run per combination
-  - a bar chart of the relative overhead with respect to a baseline
-
-The "latest run" is determined from the run_id (e.g. "run_2026_08_25_20_31_11"),
-compared as a string: since the format is zero-padded YYYY_MM_DD_HH_MM_SS,
-lexicographic order matches chronological order.
-
-Usage:
-    python analyze_execution_times.py results
-    python analyze_execution_times.py results --time-col total_execution_time_sec
-    python analyze_execution_times.py results --baseline B
-"""
-
 from __future__ import annotations
 import argparse
 import ast
