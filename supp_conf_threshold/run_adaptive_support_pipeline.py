@@ -1,16 +1,3 @@
-"""
-Pipeline: computes the adaptive minimum support (Hikmawati et al., 2021)
-over a collection of already-prepared one-hot datasets.
-
-Expected file structure: data/{dataset}/{dataset}_apriori.csv
-
-Each CSV is a one-hot dataset, but some encode presence/absence of an item as 0/1
-and others as True/False: this script normalizes everything to boolean first.
-
-Usage:
-    python run_adaptive_support_pipeline.py
-"""
-
 import glob
 import os
 from typing import List, Optional
@@ -44,13 +31,7 @@ def discover_datasets(data_root: str = DATA_ROOT) -> List[str]:
 
 
 def normalize_onehot(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Converts every column of a one-hot DataFrame to dtype bool.
-
-    Accepted formats: native booleans, numeric 0/1, and strings such as
-    "True"/"False" or "0"/"1" (which appear in mistyped CSVs).
-    Raises ValueError if a column is not binary.
-    """
+  
     df = df.copy()
 
     for col in df.columns:
@@ -98,20 +79,7 @@ def run_pipeline(
     test_size: float = 0.2,
     random_state: int = 42,
 ) -> pd.DataFrame:
-    """
-    Computes the adaptive minimum support for each dataset and returns a summary table.
-
-    Parameters
-    ----------
-    mode : 'full_dataset' or 'train_only'
-        'full_dataset': computes min_sup on the entire CSV. Only for quick
-        exploration (order of magnitude): it leaks information, because the
-        threshold also sees the test set. Not valid for the reported results.
-        'train_only': holds out a test split and computes min_sup on the training
-        part only. This is the reference for what a real cross-validation fold
-        would see (in the actual training loop it must be recomputed per fold).
-    test_size, random_state : used only when mode='train_only'.
-    """
+   
     if dataset_names is None:
         dataset_names = discover_datasets(data_root)
         if not dataset_names:
@@ -205,9 +173,7 @@ def run_pipeline(
 
 
 if __name__ == "__main__":
-    print("\n" + "#" * 70)
-    print("# QUICK TEST (exploration only, not for final results)")
-    print("#" * 70)
+ 
     summary_full = run_pipeline(mode="full_dataset")
 
     if not summary_full.empty:
