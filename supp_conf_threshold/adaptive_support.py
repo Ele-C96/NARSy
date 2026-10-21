@@ -7,8 +7,6 @@ Hikmawati, E., Maulidevi, N.U., Surendro, K. (2021).
 in association rule mining". Journal of Big Data, 8:146.
 https://doi.org/10.1186/s40537-021-00538-3
 
-IMPORTANT METHODOLOGICAL NOTE
------------------------------
 The paper presents two formulations; this implementation uses
 VERSION 2, since it is the one empirically verified against the
 published results.
